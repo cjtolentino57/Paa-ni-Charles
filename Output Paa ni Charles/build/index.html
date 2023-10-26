@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- <link rel="stylesheet" href="../src/assets/styles/Main.css" /> -->
+	<script src="https://cdn.tailwindcss.com"></script>
+	<title>Paa ni Charles</title>
+	<link rel="icon" href="../src/assets/icons-8/PAA ni TOLE roung logo.png" type="image/gif">
+</head>
+
+<body>
+	<div class="relative overflow-hidden bg-white">
+		<div class="mx-auto max-w-7xl">
+			<div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+				<svg class="absolute inset-y-0 right-0 hidden w-48 h-full text-white transform translate-x-1/2 lg:block"
+					fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+					<polygon points="50,0 100,0 50,100 0,100" />
+				</svg>
+				<!-- PC -->
+				<div>
+					<div class="relative px-4 pt-4 pb-4 sm:px-6 lg:px-8">
+						<nav class="relative flex items-center justify-between sm:h-10 lg:justify-start"
+							aria-label="Global">
+							<div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+								<div class="flex items-center justify-between w-full md:w-auto">
+									<a href="./index.html">
+										<span class="sr-only">Paa ni Tole</span>
+										<img class="w-auto h-8 rounded-full sm:h-10"
+											src="../src/assets/icons-8/PAA ni TOLE Logo.gif">
+									</a>
+								</div>
+							</div>
+							<div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+								<a href="../src/pages/products.html"
+									class="font-medium text-gray-500 hover:text-gray-900">Product</a>
+								<a href="./index.html#features"
+									class="font-medium text-gray-500 hover:text-gray-900">Features</a>
+								<a href="../src/pages/login.html"
+									class="font-medium text-indigo-600 hover:text-indigo-500">Log in</a>
+							</div>
+						</nav>
+					</div>
+					<!-- Mobile -->
+					<div
+						class="absolute inset-x-0 top-0 z-10 p-2 transition origin-top-right transform bg-gray-200 md:hidden">
+						<div class="overflow-hidden bg-white rounded-lg shadow-md ring-1 ring-black ring-opacity-5">
+							<div class="flex items-center justify-between px-4 pt-4 pb-4">
+								<div>
+									<a href="./index.html">
+										<img class="w-auto h-8 rounded-full"
+											src="../src/assets/icons-8/PAA ni TOLE Logo.gif" alt="">
+									</a>
+								</div>
+								<div class="-mr-2">
+									<button type="button"
+										class="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md mobile-menu-button hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+										<svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+											viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+												d="M4 6h16M4 12h16M4 18h16" />
+										</svg>
+									</button>
+								</div>
+							</div>
+							<div class="hidden px-2 pt-2 pb-3 space-y-1 mobile-menu">
+								<a href="../src/pages/products.html"
+									class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:text-gray-900 hover:bg-gray-50">Product</a>
+								<a href="./index.html#features"
+									class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:text-gray-900 hover:bg-gray-50">Features</a>
+								<a href="../src/pages/login.html"
+									class="block w-full px-5 py-3 font-medium text-center text-indigo-600 bg-gray-50 hover:bg-gray-100">
+									Log in
+								</a>
+							</div>
+						</div>
+					</div>
+					<script>
+						const btn = document.querySelector("button.mobile-menu-button");
+						const menu = document.querySelector(".mobile-menu");
+						btn.addEventListener("click", () => {
+							menu.classList.toggle("hidden");
+						});
+					</script>
+				</div>
+				<!-- Contents -->
+				<main class="px-4 mx-auto mt-10 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+					<div class="sm:text-center lg:text-left">
+						<h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+							<span class="block xl:inline">Our biggest</span>
+							<span class="block text-indigo-600 xl:inline">sale</span>
+						</h1>
+						<p
+							class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+							Adidas Nizza • Adidas Superstar • Air force • Chuck 70 • Chuck Taylor Allstar • Chuck Taylor
+							Hoopers • Court Vision Low Shoe • KD 14 • Kyrie 7 • Puma • SB Force
+						</p>
+						<div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+							<div class="rounded-md shadow">
+								<a href="../src/pages/register.html"
+									class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+									Get started
+								</a>
+							</div>
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+		<div class="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+			<img class="object-cover w-full h-56 sm:h-72 md:h-96 lg:w-full lg:h-full"
+				src="../src/assets/images/landingpage2.png" alt="">
+		</div>
+	</div>
+	<div id="features" class="bg-gray-100">
+		<div class="relative max-w-2xl px-4 py-16 mx-auto sm:py-24 lg:max-w-7xl lg:px-8">
+			<div class="absolute transform -translate-x-1/2 -translate-y-1/2 top-72 lg:top-52 left-1/2">
+				<div class="rounded-md shadow">
+					<a href="../src/pages/products.html"
+						class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+						Shop now!
+					</a>
+				</div>
+			</div>
+			<div class="flex grid items-center md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+				<div class="grid flex-shrink-0 grid-cols-1 gap-4 mt-4 md:gap-6 xl:gap-8 place-items-center ">
+					<div
+						class="w-64 h-64 overflow-hidden rounded-lg shadow-md hover:shadow-xl md:h-72 md:w-72 lg:h-80 lg:w-80 xl:h-96 xl:w-96">
+						<img src="../src/assets/images/model/adidasnizzamodel.png" alt=""
+							class="object-cover object-center w-full h-full">
+					</div>
+					<div
+						class="w-64 h-64 overflow-hidden rounded-lg shadow-md hover:shadow-xl md:h-72 md:w-72 lg:h-80 lg:w-80 xl:h-96 xl:w-96">
+						<img src="../src/assets/images/model/air-force-1model.png" alt=""
+							class="object-cover object-center w-full h-full">
+					</div>
+					<div
+						class="w-64 h-64 overflow-hidden rounded-lg shadow-md hover:shadow-xl md:h-72 md:w-72 lg:h-80 lg:w-80 xl:h-96 xl:w-96">
+						<img src="../src/assets/images/model/Chuck Taylor All Star Hoopmodel.png" alt=""
+							class="object-cover object-center w-full h-full">
+					</div>
+					<div
+						class="w-64 h-64 overflow-hidden rounded-lg shadow-md hover:shadow-xl md:h-72 md:w-72 lg:h-80 lg:w-80 xl:h-96 xl:w-96">
+						<img src="../src/assets/images/model/courtvisionlowmodel.png" alt=""
+							class="object-cover object-center w-full h-full">
+					</div>
+				</div>
+				<div class="grid flex-shrink-0 grid-cols-1 gap-4 mt-4 md:gap-6 xl:gap-8 place-items-center ">
+					<div
+						class="w-64 h-64 overflow-hidden rounded-lg shadow-md hover:shadow-xl md:h-72 md:w-72 lg:h-80 lg:w-80 xl:h-96 xl:w-96">
+						<img src="../src/assets/images/model/courtvisionmidmodel.png" alt=""
+							class="object-cover object-center w-full h-full">
+					</div>
+					<div
+						class="w-64 h-64 overflow-hidden rounded-lg shadow-md hover:shadow-xl md:h-72 md:w-72 lg:h-80 lg:w-80 xl:h-96 xl:w-96">
+						<img src="../src/assets/images/model/kd14model.png" alt=""
+							class="object-cover object-center w-full h-full">
+					</div>
+					<div
+						class="w-64 h-64 overflow-hidden bg-white rounded-lg shadow-md hover:shadow-xl md:h-72 md:w-72 lg:h-80 lg:w-80 xl:h-96 xl:w-96">
+						<img src="../src/assets/images/model/kyrie7model.png" alt=""
+							class="object-contain object-center w-full h-full">
+					</div>
+				</div>
+				<div class="grid flex-shrink-0 grid-cols-1 gap-4 mt-4 md:gap-6 xl:gap-8 place-items-center ">
+					<div
+						class="w-64 h-64 overflow-hidden rounded-lg shadow-md hover:shadow-xl md:h-72 md:w-72 lg:h-80 lg:w-80 xl:h-96 xl:w-96">
+						<img src="../src/assets/images/model/Nike-SB-Forcemodel.png" alt=""
+							class="object-cover object-center w-full h-full">
+					</div>
+					<div
+						class="w-64 h-64 overflow-hidden rounded-lg shadow-md hover:shadow-xl md:h-72 md:w-72 lg:h-80 lg:w-80 xl:h-96 xl:w-96">
+						<img src="../src/assets/images/model/Suede-Triplex-Botanics-Sneakermodel.png" alt=""
+							class="object-cover object-center w-full h-full">
+					</div>
+					<div
+						class="w-64 h-64 overflow-hidden rounded-lg shadow-md hover:shadow-xl md:h-72 md:w-72 lg:h-80 lg:w-80 xl:h-96 xl:w-96">
+						<img src="../src/assets/images/model/fox-men.jpg" alt=""
+							class="object-cover object-center w-full h-full">
+					</div>
+					<div
+						class="w-64 h-64 overflow-hidden rounded-lg shadow-md hover:shadow-xl md:h-72 md:w-72 lg:h-80 lg:w-80 xl:h-96 xl:w-96">
+						<img src="../src/assets/images/model/redu.jpeg" alt=""
+							class="object-cover object-center w-full h-full">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="max-w-2xl px-4 py-16 mx-auto bg-white border-gray-200 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+		<div
+			class="grid grid-cols-1 auto-cols-max auto-rows-max gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+			<div class="overflow-hidden bg-white group">
+				<div class="w-full aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8">
+					<a class="uppercase flex items-center justify-center text-4xl font-bold text-blue-700 md:justify-start">
+						<img class="w-auto h-8 mr-2 rounded-full sm:h-10"
+							src="../src/assets/icons-8/PAA ni TOLE Logo.gif">
+						Paa ni Charles
+					</a>
+					<p class="mt-2 text-sm tracking-wide text-gray-500 break-normal">
+						At first glance, these shoes might seem like any other, but they're so much more. For starters,
+						they're durable and flexible, making them perfect for all types of physical activity. They're
+						also
+						comfortable and come in a variety of colors, so you can find the perfect pair for your needs. If
+						you're looking for something that can stand up to anything, this is the shoe for you.
+					</p>
+				</div>
+			</div>
+			<div class="overflow-hidden text-center bg-white group">
+				<div class="w-full aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8">
+					<h2 class="mb-2 font-bold tracking-widest text-gray-900">
+						Store
+					</h2>
+					<ul class="mb-8 space-y-2 text-sm list-none">
+						<li>
+							<a href="../public/index.html" class="text-gray-600 hover:text-gray-800">Home</a>
+						</li>
+						<li>
+							<a href="../src/pages/products.html" class="text-gray-600 hover:text-gray-800">Product</a>
+						</li>
+						<li>
+							<a href="./index.html#features" class="text-gray-600 hover:text-gray-800">Features</a>
+						</li>
+						<li>
+							<a class="text-gray-600 hover:text-gray-800">Contact us</a>
+						</li>
+						<li>
+							<a class="text-gray-600 hover:text-gray-800">About Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="overflow-hidden text-center bg-white group">
+				<div class="w-full aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8">
+					<h2 class="mb-2 font-bold tracking-widest text-gray-900">
+						Customer
+					</h2>
+					<ul class="mb-8 space-y-2 text-sm list-none">
+						<li>
+							<a class="text-gray-600 hover:text-gray-800">Privacy Policy</a>
+						</li>
+						<li>
+							<a class="text-gray-600 hover:text-gray-800">Terms of use</a>
+						</li>
+						<li>
+							<a href="../src/pages/register.html" class="text-gray-600 hover:text-gray-800">Get access to
+								store</a>
+						</li>
+						<li>
+							<a href="../src/pages/login.html" class="text-gray-600 hover:text-gray-800">Log in</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="overflow-hidden text-center bg-white group">
+				<div class="w-full aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8">
+					<h2 class="mb-2 font-bold tracking-widest text-gray-900">
+						Follow Paa ni Charles
+					</h2>
+					<ul class="mb-8 space-y-2 text-sm list-none">
+						<li>
+							<a class="text-gray-600 hover:text-gray-800">Facebook</a>
+						</li>
+						<li>
+							<a class="text-gray-600 hover:text-gray-800">GitHub</a>
+						</li>
+						<li>
+							<a class="text-gray-600 hover:text-gray-800">Instagram</a>
+						</li>
+						<li>
+							<a class="text-gray-600 hover:text-gray-800">Tiktok</a>
+						</li>
+						<li>
+							<a class="text-gray-600 hover:text-gray-800">Twitter</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="flex justify-center py-16">
+			<p class="text-base text-gray-400">
+				© 2021 Paa ni Charles Inc. All rights reserved.
+			</p>
+		</div>
+	</footer>
+</body>
+
+</html>
